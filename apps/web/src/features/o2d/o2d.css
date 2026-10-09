@@ -1,0 +1,368 @@
+﻿.o2d-tabs {
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+.o2d-tabs button {
+  white-space: nowrap;
+}
+.o2d-table {
+  table-layout: auto;
+}
+.o2d-table th,
+.o2d-table td {
+  min-width: 100px;
+  max-width: 230px;
+}
+.o2d-table th:nth-child(1),
+.o2d-table td:nth-child(1) {
+  min-width: 55px;
+}
+.o2d-row {
+  cursor: pointer;
+}
+.o2d-row:focus-within {
+  background: #eff6ff;
+}
+.o2d-filter-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 12px;
+  background: #eff6ff;
+  color: #304d70;
+}
+.o2d-fields input[readonly] {
+  background: #f4f7fb;
+  color: #66788f;
+}
+.o2d-protected,
+.o2d-readonly {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #7d8ba0;
+}
+.o2d-invoice {
+  border: 1px solid #dce3ed;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+.o2d-invoice summary {
+  cursor: pointer;
+  padding: 14px;
+  font-size: 12px;
+  color: #304d70;
+  background: #f5f8fc;
+}
+.o2d-invoice .crm-fields {
+  padding: 16px;
+}
+.o2d-activity {
+  list-style: none;
+  padding: 0;
+}
+.o2d-activity li {
+  border-left: 2px solid #c5d8fa;
+  padding: 0 16px 22px;
+  font-size: 12px;
+}
+.o2d-activity strong,
+.o2d-activity span {
+  display: block;
+}
+.o2d-activity span {
+  color: #788ba3;
+  padding-top: 6px;
+}
+.o2d-transfer-status {
+  margin: 16px 0;
+  border: 1px solid #c8e9d2;
+  background: #edf9f0;
+  padding: 16px;
+  color: #247440;
+  font-size: 12px;
+}
+.o2d-transfer-status p {
+  margin: 7px 0 12px;
+}
+.o2d-transfer-status a {
+  color: #1d6039;
+  text-decoration: underline;
+}
+.o2d-confirm-backdrop {
+  z-index: 60;
+  justify-content: center;
+  align-items: center;
+}
+.o2d-confirm {
+  background: white;
+  border-radius: 7px;
+  width: 560px;
+  max-width: calc(100vw - 30px);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 24px;
+  box-shadow: 0 15px 65px #071b3030;
+}
+.o2d-confirm h2 {
+  margin: 0 0 18px;
+  font-size: 20px;
+}
+.o2d-confirm dl {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 12px;
+  font-size: 12px;
+}
+.o2d-confirm dt {
+  color: #7890aa;
+}
+.o2d-confirm dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.o2d-confirm .crm-actions {
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+.o2d-preview-fields {
+  white-space: pre-wrap;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.o2d-workflow-card {
+  border: 1px solid #dce3ed;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  padding: 18px;
+}
+.o2d-workflow-card h3 {
+  margin: 0 0 18px;
+  color: #304d70;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+.o2d-po-field {
+  color: #516985;
+  font-size: 12px;
+  min-width: 0;
+}
+.o2d-po-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.o2d-po-actions .button {
+  font-size: 11px;
+  min-height: 34px;
+}
+.o2d-po-actions input[hidden] {
+  display: none;
+}
+.o2d-timing {
+  margin-top: 18px;
+  color: #516985;
+  font-size: 12px;
+}
+.o2d-timing summary {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.o2d-upload-notice {
+  border: 1px solid #c8e9d2;
+  background: #edf9f0;
+  color: #247440;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.o2d-fields select:disabled {
+  background: #f4f7fb;
+  color: #66788f;
+}
+
+/* StepCard styling shared by the existing workflow tabs. */
+.o2d-purchase-section {
+  padding: 0;
+  overflow: visible;
+}
+.o2d-purchase-heading {
+  background: #f2f6fc;
+  border-bottom: 1px solid #dce3ed;
+  border-radius: 6px 6px 0 0;
+  padding: 16px 18px;
+}
+.o2d-purchase-heading h3 {
+  margin: 0;
+  color: #304d70;
+}
+.o2d-purchase-meta {
+  display: grid;
+  grid-template-columns: minmax(75px, 1fr) minmax(0, 2fr) auto;
+  gap: 14px;
+  margin: 14px 0 0;
+  color: #516985;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.o2d-purchase-meta dt {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: #657990;
+}
+.o2d-purchase-meta dd {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: #2e4663;
+  overflow-wrap: anywhere;
+}
+.o2d-purchase-section > .crm-fields {
+  padding: 18px;
+}
+
+.o2d-step-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  text-transform: uppercase;
+}
+.o2d-step-badge {
+  border: 1px solid #c6d9f3;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px 6px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.o2d-purchase-section .o2d-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 16px;
+}
+.o2d-purchase-section .o2d-field {
+  min-width: 0;
+}
+.o2d-purchase-section .o2d-field > label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 12px;
+  color: #405975;
+}
+.o2d-purchase-section .o2d-field input,
+.o2d-purchase-section .o2d-field select {
+  min-height: 40px;
+  font-size: 13px;
+}
+.o2d-purchase-section .o2d-field input[readonly] {
+  color: #334b68;
+  background: #f4f7fb;
+}
+.o2d-purchase-section .o2d-protected {
+  margin: -2px 0 7px;
+}
+.o2d-purchase-section .o2d-step-title {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.o2d-select {
+  position: relative;
+}
+.o2d-select input[role='combobox'] {
+  padding-right: 32px;
+}
+.o2d-select-arrow {
+  position: absolute;
+  right: 11px;
+  top: 13px;
+  pointer-events: none;
+  color: #61758d;
+}
+.o2d-select-options {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  max-height: 230px;
+  overflow-y: auto;
+  z-index: 15;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #bfcee0;
+  border-radius: 5px;
+  box-shadow: 0 5px 18px #1733511a;
+}
+.o2d-select-options button {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  padding: 9px 10px;
+  background: #fff;
+  color: #243b56;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.o2d-select-options button.active,
+.o2d-select-options button:hover {
+  background: #edf4ff;
+}
+.o2d-select-options button[aria-selected='true'] {
+  font-weight: 600;
+  color: #2059b5;
+}
+.o2d-select-options button[aria-disabled='true'] {
+  color: #758295;
+  cursor: default;
+}
+.o2d-select-options p {
+  padding: 8px;
+  font-size: 12px;
+  color: #61758d;
+}
+.o2d-select-error {
+  display: block;
+  margin-top: 5px;
+  color: #b42318;
+}
+.o2d-select [aria-invalid='true'] {
+  border-color: #dc6f64;
+}
+.o2d-fields .o2d-select-success > select {
+  background: #f0f9f3;
+  border-color: #b1d6be;
+  color: #24623b;
+}
+.o2d-fields .o2d-select-warning > select {
+  background: #fffaed;
+  border-color: #e5cf94;
+  color: #845b0b;
+}
+.o2d-fields .o2d-select-danger > select {
+  background: #fff3f1;
+  border-color: #e7b9b3;
+  color: #9a3028;
+}
+@media (max-width: 600px) {
+  .o2d-purchase-section .o2d-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .o2d-purchase-meta {
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+  .o2d-purchase-meta > div:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1 / -1;
+  }
+}

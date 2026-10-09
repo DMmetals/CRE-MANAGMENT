@@ -1,0 +1,26 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+credentials*.json
+*service-account*.json
+
+# Local Google service-account credentials
+all-gmail-api-*.json
+
+runtime/
+
+credentials/
+secrets/
+*.json
+!package.json
+!package-lock.json
+!tsconfig*.json
+!.prettierrc.json
+!docs/sheet-metadata.json
+playwright-report/
+test-results/

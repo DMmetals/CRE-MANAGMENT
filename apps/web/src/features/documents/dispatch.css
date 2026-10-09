@@ -1,0 +1,129 @@
+.dispatch-builder .panel-heading p {
+  margin: 6px 0 0;
+}
+.dispatch-section {
+  border: 1px solid var(--border, #d8e1ef);
+  border-radius: 6px;
+  margin: 18px 0;
+  padding: 18px;
+}
+.dispatch-section h3 {
+  margin: -18px -18px 18px;
+  padding: 12px 18px;
+  background: #f0f6ff;
+  border-bottom: 1px solid #d8e1ef;
+  font-size: 14px;
+}
+.dispatch-builder label > span {
+  display: block;
+  margin-bottom: 6px;
+}
+.dispatch-stack {
+  display: grid;
+  gap: 14px;
+}
+.dispatch-builder textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cfdaed;
+  border-radius: 4px;
+  color: inherit;
+  font: inherit;
+  resize: vertical;
+}
+.dispatch-builder input[readonly] {
+  background: #f5f7fb;
+}
+.dispatch-party-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.dispatch-material-choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.dispatch-material-choice input {
+  width: auto;
+}
+.dispatch-material-choice span {
+  flex: 1;
+  margin: 0 !important;
+}
+.dispatch-material-choice small {
+  color: #62758e;
+}
+.dispatch-table-wrap {
+  overflow-x: auto;
+}
+.dispatch-lines {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.dispatch-lines th {
+  background: #fff1e1;
+}
+.dispatch-lines th,
+.dispatch-lines td {
+  border: 1px solid #d8e1ef;
+  padding: 9px;
+  white-space: pre-line;
+  min-width: 44px;
+  text-align: left;
+}
+.dispatch-totals {
+  margin: 20px 0 0 auto;
+  max-width: 380px;
+}
+.dispatch-totals > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e7f0;
+  padding: 8px 0;
+}
+.dispatch-totals > div:last-child {
+  font-weight: 700;
+  font-size: 16px;
+}
+.dispatch-preview {
+  width: 100%;
+  height: 820px;
+  margin-top: 22px;
+  background: white;
+  border: 1px solid #d8e1ef;
+}
+.dispatch-actions {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+@media (max-width: 760px) {
+  .dispatch-party-grid {
+    grid-template-columns: 1fr;
+  }
+  .dispatch-material-choice {
+    align-items: flex-start;
+  }
+  .dispatch-material-choice small {
+    max-width: 100px;
+  }
+}
+
+.dispatch-stack label {
+  font-size: 11px;
+  color: #5d718c;
+  font-weight: 500;
+}
+.dispatch-stack input {
+  display: block;
+  margin-top: 7px;
+  border: 1px solid #d5deea;
+  padding: 10px 11px;
+  border-radius: 4px;
+  width: 100%;
+  background: white;
+  font: inherit;
+  color: #233c5c;
+}

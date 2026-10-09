@@ -1,0 +1,680 @@
+{
+  "readOnly": true,
+  "checkedAt": "2026-10-07T07:12:03.620Z",
+  "sources": [
+    {
+      "type": "CRR",
+      "configuredTab": "FMS",
+      "headerRow": 7,
+      "tabs": [
+        {
+          "id": 1339068825,
+          "name": "Form responses 6"
+        },
+        {
+          "id": 663292535,
+          "name": "FMS"
+        },
+        {
+          "id": 1604069672,
+          "name": "DM"
+        },
+        {
+          "id": 706855131,
+          "name": "MM"
+        },
+        {
+          "id": 1555453849,
+          "name": "For PC"
+        },
+        {
+          "id": 2091021127,
+          "name": "New Party addition"
+        },
+        {
+          "id": 960612855,
+          "name": "Salesperson wise"
+        },
+        {
+          "id": 1701069596,
+          "name": "Proforma Invoice-DM"
+        },
+        {
+          "id": 1265344952,
+          "name": "Consolidated"
+        },
+        {
+          "id": 445376998,
+          "name": "Proforma Invoice-MM"
+        },
+        {
+          "id": 80827415,
+          "name": "Loss/Nego"
+        },
+        {
+          "id": 555781992,
+          "name": "List Of QUT DM"
+        },
+        {
+          "id": 1691334354,
+          "name": "List Of QUT MM"
+        },
+        {
+          "id": 1824592100,
+          "name": "Client Wise Report"
+        },
+        {
+          "id": 290445354,
+          "name": "Material Details"
+        },
+        {
+          "id": 987447360,
+          "name": "Quotation-DM"
+        },
+        {
+          "id": 2140020130,
+          "name": "Quotation-MM"
+        },
+        {
+          "id": 318416465,
+          "name": "Stocklist"
+        },
+        {
+          "id": 318650225,
+          "name": "Escalation1"
+        },
+        {
+          "id": 0,
+          "name": "Setup"
+        },
+        {
+          "id": 1181393119,
+          "name": "Escalation2"
+        },
+        {
+          "id": 411710805,
+          "name": "CRR/ NBD"
+        },
+        {
+          "id": 1312151878,
+          "name": "ItemWise Report"
+        },
+        {
+          "id": 968697007,
+          "name": "Detailed ClientWise"
+        },
+        {
+          "id": 1733359047,
+          "name": "SOP"
+        },
+        {
+          "id": 1567856423,
+          "name": "Holidays"
+        },
+        {
+          "id": 832016193,
+          "name": "PC"
+        },
+        {
+          "id": 282854271,
+          "name": "Form responses 5"
+        },
+        {
+          "id": 1960305841,
+          "name": "Doers"
+        },
+        {
+          "id": 1687302753,
+          "name": "MM_PDF_CLEAN"
+        },
+        {
+          "id": 2027834440,
+          "name": "DM_PDF_CLEAN"
+        }
+      ],
+      "headers": [
+        "Date",
+        "Enquiry No.",
+        "Customer Name",
+        "Sales Person",
+        "Branch",
+        "State (Auto)",
+        "Purchaser Name (Auto)",
+        "Contact Number (Auto)",
+        "Email Address (Auto)",
+        "Material Type",
+        "SKU",
+        "THK",
+        "WIDTH",
+        "LGT",
+        "FINISH",
+        "GRADE",
+        "Edge",
+        "Qty",
+        "LIMIT",
+        "Enq Mode",
+        "Enquiry Noted Timestamp (Auto)",
+        "Planned (Auto) P",
+        "Actual (Auto) P",
+        "Rate",
+        "Value with GST (Auto)",
+        "Quote Link",
+        "Time Delay (Auto) P",
+        "Planned (Auto)",
+        "Status Date (Auto)\n",
+        "Won/ Loss",
+        "Remarks",
+        "PO Number",
+        "Total Value (With GST)",
+        "Total Qty ",
+        "Order Qty",
+        "Order Date",
+        "Time Delay (Auto)",
+        "Sr No.",
+        "Quote Number & Date (Auto)",
+        "Order ID",
+        "Sent",
+        "",
+        "DB_ID",
+        "LAST_EDIT_TS"
+      ],
+      "status": "connected",
+      "message": "Tab and headers verified."
+    },
+    {
+      "type": "NBD",
+      "configuredTab": "FMS",
+      "headerRow": 7,
+      "tabs": [
+        {
+          "id": 1339068825,
+          "name": "Form responses 6"
+        },
+        {
+          "id": 663292535,
+          "name": "FMS"
+        },
+        {
+          "id": 1604069672,
+          "name": "DM"
+        },
+        {
+          "id": 706855131,
+          "name": "MM"
+        },
+        {
+          "id": 1555453849,
+          "name": "For PC"
+        },
+        {
+          "id": 2091021127,
+          "name": "New Party addition"
+        },
+        {
+          "id": 960612855,
+          "name": "Salesperson wise"
+        },
+        {
+          "id": 1701069596,
+          "name": "Proforma Invoice-DM"
+        },
+        {
+          "id": 1265344952,
+          "name": "Consolidated"
+        },
+        {
+          "id": 445376998,
+          "name": "Proforma Invoice-MM"
+        },
+        {
+          "id": 80827415,
+          "name": "Loss/Nego"
+        },
+        {
+          "id": 555781992,
+          "name": "List Of QUT DM"
+        },
+        {
+          "id": 1691334354,
+          "name": "List Of QUT MM"
+        },
+        {
+          "id": 1824592100,
+          "name": "Client Wise Report"
+        },
+        {
+          "id": 290445354,
+          "name": "Material Details"
+        },
+        {
+          "id": 987447360,
+          "name": "Quotation-DM"
+        },
+        {
+          "id": 2140020130,
+          "name": "Quotation-MM"
+        },
+        {
+          "id": 318416465,
+          "name": "Stocklist"
+        },
+        {
+          "id": 318650225,
+          "name": "Escalation1"
+        },
+        {
+          "id": 0,
+          "name": "Setup"
+        },
+        {
+          "id": 1181393119,
+          "name": "Escalation2"
+        },
+        {
+          "id": 411710805,
+          "name": "CRR/ NBD"
+        },
+        {
+          "id": 1312151878,
+          "name": "ItemWise Report"
+        },
+        {
+          "id": 968697007,
+          "name": "Detailed ClientWise"
+        },
+        {
+          "id": 1733359047,
+          "name": "SOP"
+        },
+        {
+          "id": 1567856423,
+          "name": "Holidays"
+        },
+        {
+          "id": 832016193,
+          "name": "PC"
+        },
+        {
+          "id": 282854271,
+          "name": "Form responses 5"
+        },
+        {
+          "id": 1960305841,
+          "name": "Doers"
+        },
+        {
+          "id": 1687302753,
+          "name": "MM_PDF_CLEAN"
+        }
+      ],
+      "headers": [
+        "Date",
+        "Enquiry No.",
+        "Customer Name",
+        "Sales Person",
+        "Branch",
+        "State (Auto)",
+        "Purchaser Name (Auto)",
+        "Contact Number (Auto)",
+        "Email Address (Auto)",
+        "Material Type",
+        "SKU",
+        "THK",
+        "WIDTH",
+        "LGT",
+        "FINISH",
+        "GRADE",
+        "Edge",
+        "Qty",
+        "LIMIT",
+        "Enq Mode",
+        "Enquiry Noted Timestamp (Auto)",
+        "Planned (Auto) P",
+        "Actual (Auto) P",
+        "Rate",
+        "Value with GST (Auto)",
+        "Quote Link",
+        "Time Delay (Auto) P",
+        "Planned (Auto)",
+        "Status Date (Auto)\n",
+        "Won/ Loss",
+        "Remarks",
+        "PO Number",
+        "Total Value (With GST)",
+        "Total Qty ",
+        "Order Qty",
+        "Order Date",
+        "Time Delay (Auto)",
+        "Sr No.",
+        "Quote Number & Date (Auto)",
+        "Order ID",
+        "Sent",
+        "BhikhaJi",
+        "DB_ID",
+        "LAST_EDIT_TS"
+      ],
+      "status": "connected",
+      "message": "Tab and headers verified."
+    },
+    {
+      "type": "O2D_FBD",
+      "configuredTab": "FBD",
+      "headerRow": 6,
+      "tabs": [
+        {
+          "id": 0,
+          "name": "FBD"
+        },
+        {
+          "id": 310686547,
+          "name": "New Party Addition"
+        }
+      ],
+      "headers": [
+        "",
+        "Sr no",
+        "Enquiry No.",
+        "Customer Name",
+        "Sales Person",
+        "Category",
+        "PO Number",
+        "PO Date",
+        "SKU",
+        "Thk",
+        "Width",
+        "Lgt",
+        "Finish",
+        "Grade",
+        "Edge",
+        "Nos",
+        "Order Qty",
+        "Balance Qty",
+        "Order Rate",
+        "Total Value",
+        "LIMIT",
+        "Payment Terms",
+        "Order Receiving Date & Time",
+        "Planned ",
+        "Actual ",
+        "PO PHOTO",
+        "Rev PO Photo",
+        "Time Delay",
+        "Planned ",
+        "Actual ",
+        "Status",
+        "Time Delay (Auto)  P",
+        "Planned P",
+        "Actual P",
+        "Terms & Condition",
+        "Size & Rate Approval",
+        "Material Status",
+        "Lot NO.",
+        "CRDD",
+        "PO Approval Status",
+        "Time Delay (Auto) P1",
+        "Planned D",
+        "Actual D",
+        "Status D",
+        "Time Delay (Auto) D",
+        "Planned G",
+        "Actual G",
+        "Status G",
+        "Time Delay (Auto) G",
+        "Purchase Target Date",
+        "Jindal Expected Date",
+        "Job Work Expected Date",
+        "REVISED CRDD",
+        "Planned PR",
+        "Actual PR",
+        "Status PR",
+        "Time Delay (Auto) PR",
+        "Planned",
+        "Actual",
+        "Dispatch Order link",
+        "Time Delay",
+        "Planned SG",
+        "Actual SG",
+        "VEHICLE NUMBER",
+        "TRASPOTER NAME",
+        "",
+        "Remarks/ Challenges",
+        "Time Delay",
+        "Status",
+        "Final Status TImestam[p",
+        "Move status \n",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date"
+      ],
+      "status": "connected",
+      "message": "Tab and headers verified."
+    },
+    {
+      "type": "O2D_MUM",
+      "configuredTab": "MUM",
+      "headerRow": 6,
+      "tabs": [
+        {
+          "id": 0,
+          "name": "MUM"
+        },
+        {
+          "id": 310686547,
+          "name": "New Party Addition"
+        }
+      ],
+      "headers": [
+        "",
+        "Sr no",
+        "Enquiry No.",
+        "Customer Name",
+        "Sales Person",
+        "Category",
+        "PO Number",
+        "PO Date",
+        "SKU",
+        "Thk",
+        "Width",
+        "Lgt",
+        "Finish",
+        "Grade",
+        "Edge",
+        "Nos",
+        "Order Qty",
+        "Balance Qty",
+        "Order Rate",
+        "Total Value",
+        "LIMIT",
+        "Payment Terms",
+        "Order Receiving Date & Time",
+        "Planned ",
+        "Actual ",
+        "PO PHOTO",
+        "Rev PO Photo",
+        "Time Delay",
+        "Planned ",
+        "Actual ",
+        "Status",
+        "Time Delay (Auto)  P",
+        "Planned P",
+        "Actual P",
+        "Terms & Condition",
+        "Size & Rate Approval",
+        "Material Status",
+        "Lot NO.",
+        "CRDD",
+        "PO Approval Status",
+        "Time Delay (Auto) P1",
+        "Planned D",
+        "Actual D",
+        "Status D",
+        "Time Delay (Auto) D",
+        "Planned G",
+        "Actual G",
+        "Status G",
+        "Time Delay (Auto) G",
+        "Purchase Target Date",
+        "Jindal Expected Date",
+        "Job Work Expected Date",
+        "REVISED CRDD",
+        "Planned PR",
+        "Actual PR",
+        "Status PR",
+        "Time Delay (Auto) PR",
+        "Planned",
+        "Actual",
+        "Dispatch Order link",
+        "Time Delay",
+        "Planned SG",
+        "Actual SG",
+        "VEHICLE NUMBER",
+        "TRASPOTER NAME",
+        "",
+        "Remarks/ Challenges",
+        "Time Delay",
+        "Status",
+        "Final Status TImestam[p",
+        "Move status \n",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date",
+        "Planned Dispatch Date",
+        "Qty Dispatched",
+        "Dispatch Date",
+        "Invoice No.",
+        "Invoice Date",
+        "Invoice Value",
+        "Invoice Due Date"
+      ],
+      "status": "connected",
+      "message": "Tab and headers verified."
+    }
+  ]
+}
